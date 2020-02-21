@@ -6,6 +6,7 @@ import Editor from '@/components/Editor'
 Vue.use(Router);
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
